@@ -1,0 +1,6 @@
+[submodule "SCA-PoC"]
+	path = SCA-PoC
+	url = https://github.com/JeongWon-Oh/SCA-PoC.git
+[submodule "gem5-SCA"]
+	path = gem5-SCA
+	url = https://github.com/JeongWon-Oh/gem5-SCA.git
