@@ -26,7 +26,7 @@ make single-eviction
 
 ```{bash}
 cd gem5-SCA/gem5-quickstart
-touch result
+mkdir result
 ./gem5-SCA/build/X86/gem5.opt run.py --processor_type=verbatim > ./result/attack.log
 ./../../SCA-PoC/scripts/plot-log.py -o ./result -v -t ./result/attack.log
 ```
